@@ -1,0 +1,13 @@
+<h1>Ex1: List of reservation</h1>
+List the list of reservation with the user details :
+<ul>
+  <li *ngFor="let m of userReservation" class="method">
+    <h2>{{m.title}}</h2>
+    <div>
+      name: {{m.name }}
+    </div>
+    <div>
+      email: {{m.email}}
+    </div>
+  </li>
+</ul>
